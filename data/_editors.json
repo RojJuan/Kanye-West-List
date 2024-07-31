@@ -1,13 +1,13 @@
 [
     {
         "role": "owner",
-        "name": "Izzie",
-        "link": "https://www.youtube.com/@dailygdnews"
+        "name": "Botscoutt",
+        "link": "https://www.youtube.com/channel/UCzLsO1rVGjddNOhOjeSwa5A"
     },
   {
-      "role": "dev",
-      "name": "botscoutt",
-      "link": "https://www.youtube.com/channel/UCzLsO1rVGjddNOhOjeSwa5A"
+      "role": "admin",
+      "name": "Kanye West",
+      "link": "https://www.youtube.com/channel/UCs6eXM7s8Vl5WcECcRHc2qQ"
   }
   
 ]
