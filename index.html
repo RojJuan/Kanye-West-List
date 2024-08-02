@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1024" />
     <meta property="og:site_name" content="Kanye West List" />
+
+
+
     <meta property="og:type" content="website" />
+
+
+
     <meta property="og:title" content="Polygon - Demon List" />
+
+
     <meta property="og:description"
-          content="This is the official GDPS Demon List. Where all demons, sorted by hardest to easiest are listed." />
-    <meta id="meta-image" property="og:image" itemprop="image" content="/tsl_icon.png" />
+        content="This is the official GDPS Demon List. Where all demons, sorted by hardest to easiest are listed." />
+        <meta id="meta-image" property="og:image" itemprop="image" content="/tsl_icon.png" />
     <title>Kanye West List</title>
     <link rel="icon" href="/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,6 +36,7 @@
     <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
     <script type="module" src="/js/main.js"></script>
 </head>
+
 <body id="app">
     <header :class="{ dark: store.dark }">
         <div class="logo">
@@ -51,14 +61,15 @@
                     <img src="/assets/discord.svg" alt="Discord Logo" />
                 </a>
                 <a class="nav__cta type-label-lg"
-                   href="https://forms.gle/nRbqkeXEE54kxYiE7"
-                   target="_blank">Record</a>
+                    href="https://forms.gle/nRbqkeXEE54kxYiE7"
+                    target="_blank">Record</a>
 <!--                <a class="nav__cta type-label-lg"
-                   href="https://reachaxichallist.igndoom.repl.co/#/"
-                   target="_blank">Challenge List</a> -->
+                    href="https://reachaxichallist.igndoom.repl.co/#/"
+                    target="_blank">Challenge List</a> -->
             </div>
         </nav>
     </header>
     <router-view :class="{ dark: store.dark }"></router-view>
 </body>
+
 </html>
